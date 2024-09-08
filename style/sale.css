@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 20px poppins;
+}
+.sale {
+    display: grid;
+    grid-template-rows: 80px 1002px 136px;
+    width: 600px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header img {
+    width: 50px;
+    height: 42px;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+h1 {
+    font-size: 1.5em;
+    display: inline-block;
+    width: 552px;
+    height: 48px;
+    line-height: 36px;
+    margin-top: 9px;
+}
+.cards {
+    display: flex;
+    width: 552px;
+    height: 436px;
+}
+.frame {
+    display: flex;
+    flex-direction: column;
+}
+.frame img {
+    width: 276px;
+    height: 276px;
+    object-fit: cover;
+    margin-top: 19px
+}
+.frame a {
+    text-decoration: none;
+    display: inline-block;
+}
+.frame p {
+    color: black;
+    position: relative;
+    left: 8px;
+    bottom: 16px;
+}
+#price {
+    color: rgba(72, 157, 255, 1);
+    font-size: .8em;
+    font-weight: bold;
+    position: relative;
+    left: 9px;
+    bottom: 14px
+}
+.frame button {
+    background-color: rgba(72, 157, 255, 1);
+    border: none;
+    border-radius: 7px;
+    width: 131px;
+    height: 48px;
+    color: white;
+    position: relative;
+    font: .75em montserrat;
+    font-weight: bold;
+    left: 6px;
+    top: 1px;
+    cursor: pointer;
+}
+.footer {
+
+}
